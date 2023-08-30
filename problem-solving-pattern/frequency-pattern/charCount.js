@@ -20,5 +20,9 @@ const charCount = string => {
   return result;
 };
 
-const result = charCount('hello, how are YOU!');
-console.log(result);
+// const result = charCount('hello, how are YOU!');
+// console.log(result);
+
+
+
+// FREQUENCY PATTERN - ANAGRAM CHALLANGE SOLUTION 

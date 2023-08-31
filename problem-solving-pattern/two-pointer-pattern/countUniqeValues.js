@@ -36,7 +36,7 @@ const countUniqueValues = arr => {
   }
 
   return left;
-};
+}
 
 const result = countUniqueValues([1, 1, 2, 3, 5, 5, 6, 8, 12, 12]);
 console.log(result);

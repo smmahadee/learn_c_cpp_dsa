@@ -1,4 +1,4 @@
-const searchString = (long, short) => {
+const searchStringNaive = (long, short) => {
   let count = 0;
 
   for (let i = 0; i < long.length; i++) {
@@ -15,4 +15,4 @@ const searchString = (long, short) => {
   return count;
 };
 
-console.log(searchString('hello how are you, lol', 'lo'));
+console.log(searchStringNaive('hello how are you, lol', 'lo'));

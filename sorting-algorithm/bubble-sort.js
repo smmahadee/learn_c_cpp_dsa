@@ -14,5 +14,9 @@ const printArray = arr => {
   return result;
 };
 
+
+
 const result = printArray([22, 3, 5, 13, 2, 18, 7, 9]);
 console.log(result);
+
+

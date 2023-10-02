@@ -1,0 +1,124 @@
+* why we learn c ?
+1. Structured programming language - 1972 - Dennis ritchi
+2. Mother of programming language
+3. Easy to learn and easy to shift another language after learning this language
+
+
+* what we learn today  ?
+1. Print
+2. Input
+3. Variable and data types
+4. Data type limitations
+5. Rules for variable names
+
+* A c programming file is divided by two parts.
+1. head - where we have all of our header file / Library file
+2. body - where we have all of our code
+
+* there are two type of funtions.
+
+1. User defined funtions
+2. Built in funtions
+
+* Every C program start by reading the main(){} funtion.
+ If we don't define main function then that file will not run.
+
+* How to write function ?
+1. Return type 
+2. name(){}
+5. inside curly braces - code processing & return output
+4. Have to write semicolon end of every line.
+
+* stdio.h - Standard input and output
+
+* How to execute a C file ?
+1. At first will import all header file.
+2. then it will find the main function.
+
+* Some special character
+1. \n - new line
+2. \t - tab
+
+* how to write back slash in print function ?
+ans: Back slash all time come with a character, that's why we have to write 
+    double back slash - \\
+
+* how to write a  parcent in print function ?
+ans: parcent all time come with a character, that's why we have to write 
+    double parcent - %% . If you want two parcent sign, then you have to 
+    write 4 parcent - %%%%
+
+* Variable - like a container or bag
+
+* Data type -
+1. int - 4 Byte -> -100, 0 , 100 - decimal not allowed
+2. float - 4 byte -> -2.5, 5.46
+3. char -> 'a', 'b', 'abc'
+4. bool -> true or false
+5. long long int -> 8 byte -> for big interger
+5. duble -> 8 byte -> for long float/decimal value
+
+* how to declare a variable ?
+1. declare data type
+2. write a name, after that a variable has been declared and 
+    it takes some memory. it takes temporary memory because 
+    if it takse hard disk then it fill up the hard disk thats' why.
+3. then assign a value, its called assign a value
+4. if you declare a variable and assign a value, then its 
+    called variable initialization.
+
+* Bit/Byte calcualtion - 
+1GB - 1024 MB
+1MB - 1024 KB
+1KB - 1024 Byte
+1 BYTE - 8 Bit
+
+* FORMAT SPECIFIER -  when we try to print a value of a variable, then we 
+    have to write format speciafier
+1. %d -> int
+2. %f -> float
+3. %c -> char
+4. %lld -> long long it
+5. %lf -> double (long float)
+
+
+* How to take input ?
+1. scanf function we have to write
+2. in this function we have to write double quotation
+3. then which type of input we want to take
+4. then coma, and the variable name we want to assign the value in .
+5. IMPORTANT : we have to give an "&" sign to provide a memory location, so, the scanf function 
+    can assign the input value to that variable properly.
+ex: scanf("first input %d", &input1);
+
+* how can we give parcent input, like - 10%, 20%
+ans: 
+1. we have to  read those % input by a char but we don't work with
+    those values. and when we show those values , we write an extra % sign after that.
+2. we have to read exact that value from scanf funtion 
+    ex : scanf("%da %db", &a, &b);
+
+
+* what is highest decimal number we can get from - 
+1. 1 bit - 1
+2. 2 bit - 3
+3. 3 bit - 7
+4. 4 bit - 15
+
+so, the formula is 2n - 1
+thats why if we take 4 bit then highest value will be 15
+
+* how many digits or how much value an integer (4 byte/32 bit) can take ?
+ans: some value in 10 digits, but it is hart to memorize, 
+    thats why we can say the smallest value of 10 digits 
+    can take an integer. we can say this value in a short way - 10^9(10 to the power 9)
+
+1. an integer -> smallest value of 10 digits (10^9) - 1000000000
+2. an long long int -> smallest value of 18 digits - 1000000000000000000
+3. float - 6 to 7 digits can take
+4. double - can take 16 digits
+
+* variable naming Rules
+1. name should be start letter or underscore
+2. name can be letter, digits, underscore
+3. keyword's can't be userd as variable

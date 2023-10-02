@@ -33,7 +33,7 @@
 
 * How to execute a C file ?
 1. At first will import all header file.
-2. then it will find the main function.
+2. then it will find the main function and start executing.
 
 * Some special character
 1. \n - new line
@@ -53,7 +53,7 @@ ans: parcent all time come with a character, that's why we have to write
 * Data type -
 1. int - 4 Byte -> -100, 0 , 100 - decimal not allowed
 2. float - 4 byte -> -2.5, 5.46
-3. char -> 'a', 'b', 'abc'
+3. char -> 'a', 'b', 'c'
 4. bool -> true or false
 5. long long int -> 8 byte -> for big interger
 5. duble -> 8 byte -> for long float/decimal value
@@ -63,7 +63,7 @@ ans: parcent all time come with a character, that's why we have to write
 2. write a name, after that a variable has been declared and 
     it takes some memory. it takes temporary memory because 
     if it takse hard disk then it fill up the hard disk thats' why.
-3. then assign a value, its called assign a value
+3. then assign a value, its called assigned a value
 4. if you declare a variable and assign a value, then its 
     called variable initialization.
 
@@ -78,7 +78,7 @@ ans: parcent all time come with a character, that's why we have to write
 1. %d -> int
 2. %f -> float
 3. %c -> char
-4. %lld -> long long it
+4. %lld -> long long int
 5. %lf -> double (long float)
 
 
@@ -109,16 +109,16 @@ so, the formula is 2n - 1
 thats why if we take 4 bit then highest value will be 15
 
 * how many digits or how much value an integer (4 byte/32 bit) can take ?
-ans: some value in 10 digits, but it is hart to memorize, 
+ans: some value in 10 digits, but it is hard to memorize, 
     thats why we can say the smallest value of 10 digits 
     can take an integer. we can say this value in a short way - 10^9(10 to the power 9)
 
 1. an integer -> smallest value of 10 digits (10^9) - 1000000000
 2. an long long int -> smallest value of 18 digits - 1000000000000000000
-3. float - 6 to 7 digits can take
+3. float - 6 to 7 or 8 digits can take
 4. double - can take 16 digits
 
 * variable naming Rules
 1. name should be start letter or underscore
-2. name can be letter, digits, underscore
+2. name can contain letter, digits, underscore
 3. keyword's can't be used as variable

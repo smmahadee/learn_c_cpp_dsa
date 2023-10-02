@@ -121,4 +121,4 @@ ans: some value in 10 digits, but it is hart to memorize,
 * variable naming Rules
 1. name should be start letter or underscore
 2. name can be letter, digits, underscore
-3. keyword's can't be userd as variable
+3. keyword's can't be used as variable

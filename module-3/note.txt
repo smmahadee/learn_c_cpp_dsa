@@ -1,0 +1,40 @@
+* What will we learn today ?
+1. what is loop
+2. when we will use loop
+3. addition from 1 to N
+4. how to use condition inside loop
+5. Break, Continue statement
+6. While loop, do while loop
+7. how to handle infinity loop
+
+* when we use loop ?
+1. when we have to do same work mulitple time
+
+* 3 types of loop in C
+1. For loop
+2. white loop
+3. do while loop
+
+* 3 Types of code inside loop first bracket
+1. initialization code;
+2. condition;
+3. increment/decreament;
+ex: for(let i = 0; i < 10; i++)
+
+* when we can use value in loop ?
+1. that values have a start point
+2. that values have an end point
+3. there is a relation between stat point and end point
+
+* CONTINIUE keyword
+when the statement is matched, then Continue keyword
+skip all of codes that is under this statement and 
+go to the next loop.
+
+* for loop and white loop are same -
+but when we know about how many iteration we need, we use
+for loop, but if we don't know about iteration then we 
+use while loop.
+
+* do while loop execute the code even the condition
+doesn't match for the first time.then stop the loop.

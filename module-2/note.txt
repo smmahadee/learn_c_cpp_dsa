@@ -1,0 +1,41 @@
+* What we learn today ?
+1. Arithmetic operator
+2. Relational operator
+3. Logical operator
+4. How to conditinally work with those operator
+5. learn conditional statement in c programming
+6. if else, nested if else
+
+* What is operator ?
+ans: it is just a symbol, he placed between two values and 
+    suggest some relation.
+
+* ARITHMETIC OPERATOR - it sits between two varable,
+    and return a value.
+some operator - plus, minus, multiply, divide, mod - %
+
+IMPORTANT: when we divide an integer by another integer,
+    the result will be an integer.If we want to get float
+    value, then on of those two number or both of them have 
+    to be float number.
+
+* Rules for getting a float value after dividing
+1. one of them or both have to be a float value, 
+    we can achive this by multipling one of them with 1.0
+2. we have to get that value with a float variable, if we 
+    take that value in an intger variable , then we can't
+    get a float value
+
+* RELATIONAL OPERATOR - it sits between two operator,
+    and justify the relation and return true or false
+1. less than -- <
+2. greater than -- >
+3. less than or equal -- <=
+4. greater than or equal -- >=
+5. equal -- ==
+6. not equal -- !=
+
+* LOGICAL OPERATOR - it sits between two conditions,
+    and justify the relation and return true or false
+1. logical AND - && - it returns true when both condition true
+2. logical OR -  || - it returns true then on of them is true

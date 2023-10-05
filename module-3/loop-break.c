@@ -17,6 +17,7 @@ int main()
         continue;
         a++;
     }
+    
     printf("%d %d",i,a);
     return 0;
 }

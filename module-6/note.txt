@@ -1,0 +1,16 @@
+INCREMENT AND DECREMENT OPERATOR
+
+* Icrement sign - "++" - ex: i++
+* Decrement sign - "--" - ex: i--
+
+
+* Difference between i++ and ++i
+* for incrementing purpose > there is no Difference
+* for value assign purpose > 
+    * i++ > post increment > value will be assign first,
+    then increment the value of i. 
+    ex: i = 10 ; x = i++; value of x will be 10 then value 
+    of i will be increment, that means 11;
+
+    * ++i > pre increment > value of i increment first,
+    then updated value will be assign.

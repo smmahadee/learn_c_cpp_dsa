@@ -17,6 +17,7 @@ int main()
         continue;
         a++;
     }
-    printf("%d %d",i,a);
+    // printf("%d %d\n",i,a);
+    printf("%%\n");
     return 0;
 }

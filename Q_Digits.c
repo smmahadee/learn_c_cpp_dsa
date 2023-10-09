@@ -4,17 +4,13 @@ int main() {
     int count;
     scanf("%d", &count);
     for (int i = 1; i <= count; i++) {
-        int num, qoutient;
+        int num;
         scanf("%d", &num);
-        while (qoutient != 0) {
-            // DIVIDE NUM BY 10 AND SAVE THE QOUTIENT
-            qoutient = num / 10;
-            printf("%d", qoutient);
-            // DIVIDE NUM BY 10 AND PRINT THE MOD
-            // IF QOUITENT IS EQUAL TO ZERO THEN BREAK
-        }
-
-        printf("%d * %d = %d\n", num, i, num * i);
+        do {
+            printf("%d ", num % 10);
+            num = num / 10;
+        } while (num != 0);
+        printf("\n");
     }
     return 0;
 }

@@ -1,0 +1,16 @@
+** ARRAY **
+* First the type of value in this array - ex: int, char, float
+* the name of the array
+* the size of the array - [5]
+
+note: you can't hold various type of value in one array, if you specify the type , you only hold that type of element in the array. ex: int myArr[5] = {1, 2, 3, 4, 5}
+
+* Some variations - 
+    1. int arr[5] = {1, 2, 3, 4, 5};
+    2. int arr[5] = {0}; result will be - {0, 0, 0, 0, 0};
+    3. int arr[5] = {1, 2} result will be - {1, 2, 0, 0, 0};
+    4. int arr[] = {1, 2, 3} - this will automacally understand the size of the array
+
+* Accessing array elements
+* First index - 0
+* Last index - Size of array - 1

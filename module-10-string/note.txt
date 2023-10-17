@@ -1,0 +1,13 @@
+** STRING **
+
+* Charactar : Normally what we see in keyboard, everything is a Charactar.
+
+* string is a type of array with special power.
+    1. initialization :  we can initialize string by double qoutation.when we use double qoutation, '\0' (null) automatically will be added to the last of the string. but we have to increase the size by 1 to get that null value, otherwise something strange will be happen -> "Rahat"
+    2. print :  we don't have to use for loop to show that string array , we can simply use prinf("%s", arr) to show the entire array. it basically show the data by for loop untill the all element in the array doesn't finish.
+    3. input : we dont need for loop to take string input. we simply can use scanf("%s", name); we have to make sure that our name array size is at least our input + 1 Charactar more.
+
+
+* scanf("%s", str) funtion ends when it got a space or enter, it doesn't include  space or inter button.
+* gets() function only take space , but doesn't take enter button.
+* fgets() function take enter button as input, but scanf and gets function never take enter button as input.

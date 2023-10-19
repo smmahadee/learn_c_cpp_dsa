@@ -1,0 +1,1 @@
+{"name":"Local: frequency_array","url":"/Users/mahadee/Personal/Projects/learn_with_phitron/module-11/frequency_array.c","tests":[{"id":1697586285702,"input":"6\n2 3 4 5 6 2","output":"0 0 2 0 0 0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/mahadee/Personal/Projects/learn_with_phitron/module-11/frequency_array.c","group":"local","local":true}

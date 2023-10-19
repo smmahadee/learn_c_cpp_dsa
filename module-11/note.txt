@@ -1,0 +1,6 @@
+In terms of lexicographical order, when comparing strings using strcmp:
+
+If the return value is less than 0, it means the first string is less than the second string.
+If the return value is 0, it means the two strings are equal.
+If the return value is greater than 0, it means the first string is greater than the second string.
+So, in this case, "apple" is considered less than "banana" because 'a' comes before 'b' in the lexicographical order of characters. Therefore, you would say "apple" is less than "banana".

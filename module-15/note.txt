@@ -1,0 +1,12 @@
+**-- pointers --**
+
+** we can access an element of array in 4 way - 
+1. arr[1]
+2. 1[arr]
+3. *(arr + 1);
+4. *(1 + arr);
+
+* when we pass the first address of an array, we have to pass also the size of the array.
+* when we pass a string to a function, we don't need to pass the size of the string or length 
+of that string , because string has a null character at the end. and strlen function count the 
+before getting null.

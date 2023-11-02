@@ -1,0 +1,33 @@
+**** RECURSION ****
+
+* recursion - a function that call himself
+
+* divide the problem into smaller sub problems
+* specify the base condition to stop the recursion
+
+** how to write recusive funtion
+1. write an if/else statement.
+ inside if block, write base condition where we stop the funtion.
+ inside else block, write recusive procedure
+
+
+* what is base condition?
+base condition is which doesnot require to call the same funtion
+and it helps to stop the recusive funtion.
+
+* kinds of recursion
+    1. direct recursion 
+    2. inderect recursion
+    3. tail recursion
+    4. not-tails recursion
+
+* direct recursion - a function is called direct recursive if it 
+calls the same function again.
+* indirect function - a function (let say fun) is called indirect recursive if 
+it calls another funtion(let say fun2). then fun2 calls the (fun) function
+directly or indirectly.
+* tail recusive - a function is called tail recursive if the recursive call is the 
+last thing done by the function. there is no need to keep record of the previous state.
+* not-tail recusive - a recusive funtion is said to be non-tail recursive if the recursive 
+call is not the last thing done by the function. After returning back, there is some somthing
+left to evaluate.

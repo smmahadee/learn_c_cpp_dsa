@@ -1,0 +1,19 @@
+**-- MATRIX --**
+
+* matrix - a matrix is a rectangular array or a square array or table of nubmers, symbol or 
+expressions, arranged in row and columns.
+
+* matrix can be rectangular or square
+
+* row matrix - the row only one, columns can be one or more.
+* column matrix/vector matrix - the column will be one, rows can be one or more.
+* zero matrix/null matrix - a matrix  where every value will be zero.
+
+* diagonal matrix - a square matrix where value will be only in diagonal. value can be zero but our concern is value have to be only in diagonal, if value found in other place without diagonal then it is not called diagonal matrix.
+* diagonal matrix have two diagonal
+1. left top to right bottom - called primary diagonal
+2. left bottom to right top - called secondary diagonal
+
+* scaler matrix - is a diagonal matrix (the matrix have to be square) where value will be in any diagonal, but the value will be same and cann't be zero.
+
+* unit matrix - is a scaler matrix (the matrix have to be diagonal as well as scaler) where value will be 1.

@@ -1,0 +1,13 @@
+** There are no format specifier in c++
+
+** type casting
+1. long long int -> int
+2. character <-> int
+3. float/double <-> int
+
+** for changing long long int data type we have to write like this -
+ex: (long long int)(a);
+
+** difference between if-else and switch
+1. when a condition matched , if/else break the statement,
+    but switch execute all of the code below that condition.

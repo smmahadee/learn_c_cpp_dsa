@@ -1,0 +1,15 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/mahadee/Personal/Projects/learn_with_phitron/phitron_c++/module-1/min'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003BDC, symSize: 0xA0 }
+  - { offsetInCU: 0x3809, offset: 0x3809, size: 0x8, addend: 0x0, symName: __ZNSt3__13minB7v160006IiEERKT_S3_S3_, symObjAddr: 0xA0, symBinAddr: 0x100003C7C, symSize: 0x2C }
+  - { offsetInCU: 0x4486, offset: 0x4486, size: 0x8, addend: 0x0, symName: __ZNSt3__14endlB7v160006IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_, symObjAddr: 0xF8, symBinAddr: 0x100003CD4, symSize: 0x58 }
+  - { offsetInCU: 0x44C6, offset: 0x44C6, size: 0x8, addend: 0x0, symName: __ZNSt3__13minB7v160006IiNS_6__lessIiiEEEERKT_S5_S5_T0_, symObjAddr: 0x150, symBinAddr: 0x100003D2C, symSize: 0x54 }
+  - { offsetInCU: 0x455B, offset: 0x455B, size: 0x8, addend: 0x0, symName: __ZNSt3__19use_facetB7v160006INS_5ctypeIcEEEERKT_RKNS_6localeE, symObjAddr: 0x264, symBinAddr: 0x100003E40, symSize: 0x2C }
+  - { offsetInCU: 0x6DD5, offset: 0x6DD5, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003BDC, symSize: 0xA0 }
+  - { offsetInCU: 0x6EE2, offset: 0x6EE2, size: 0x8, addend: 0x0, symName: __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsB7v160006EPFRS3_S4_E, symObjAddr: 0xCC, symBinAddr: 0x100003CA8, symSize: 0x2C }
+  - { offsetInCU: 0x6F28, offset: 0x6F28, size: 0x8, addend: 0x0, symName: __ZNKSt3__16__lessIiiEclB7v160006ERKiS3_, symObjAddr: 0x1A4, symBinAddr: 0x100003D80, symSize: 0x34 }
+  - { offsetInCU: 0x6F68, offset: 0x6F68, size: 0x8, addend: 0x0, symName: __ZNKSt3__19basic_iosIcNS_11char_traitsIcEEE5widenB7v160006Ec, symObjAddr: 0x1D8, symBinAddr: 0x100003DB4, symSize: 0x8C }
+  - { offsetInCU: 0x6FD4, offset: 0x6FD4, size: 0x8, addend: 0x0, symName: __ZNKSt3__15ctypeIcE5widenB7v160006Ec, symObjAddr: 0x290, symBinAddr: 0x100003E6C, symSize: 0x38 }
+...

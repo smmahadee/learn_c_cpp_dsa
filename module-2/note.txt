@@ -1,0 +1,25 @@
+** there are two type of memory
+1. stack ->  static memory/compiled time memory
+2. heap -> dynamic memory
+
+** difference
+1. stack has limited memory but heap has more memory
+2. stack can't increase his memory limit but heap can.
+3. stack can clear automatically his memory but heap can't. we have to give instructions
+to clear heap memory.
+
+**-- create dynamic memory --**
+
+* we can create dynamic memory by writing "new" keyword and datatype.
+ex: int *p = new int;
+
+* when we create dynamic memory by "new" keyword, it gives us a memory address from heap.
+* we create dynamic memory by "new" keyword in heap, but we create static memory in stack to keep that dynamic memory address.
+* when we want to set a pointer address to a variable, we have to set that variable as 
+double pointer. ex: int *p = new int; int **q = &p;
+
+**-- create/increase/delete dynamic array --**
+
+* create dynamic array -  int * arr = new int[5];
+* delete dynamic array - delete[] arr;
+* increase dynamic array size - arr = new int[10];

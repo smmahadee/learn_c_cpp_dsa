@@ -27,8 +27,10 @@ int main() {
     // Student* rahim = fun();
     Student * rahim = new Student("Rahim", 23, 32.23);
 
-    cout << rahim->name << rahim->roll << endl;
 
+    cout << rahim->name << rahim->roll << endl;
     delete rahim;
+    cout << rahim->name << rahim->roll << endl;
+    
     return 0;
 }

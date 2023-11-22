@@ -15,7 +15,7 @@ int main() {
 
     arr = new int[7];
 
-    for (size_t i = 0; i < 5; i++) {
+    for (int i = 0; i < 5; i++) {
         arr[i] = newArr[i];
     }
 

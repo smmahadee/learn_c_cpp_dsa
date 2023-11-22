@@ -1,0 +1,50 @@
+String built-in functions:
+
+** Capacity **
+* s.size() -> returns the size of the string. ☑︎
+* s.clear() -> clear the string. ☑︎
+* s.empty() -> return true/false if the string is empty. ☑︎
+* s.resize() -> change the size of the string. ☑︎
+
+s.max_size() -> returns the maximum size that string can hold.
+s.capacity() -> returns current available capacity of the string.
+
+** Element access **
+* s[i] -> access the ith index of the string. - ☑︎
+* s.back() -> access the last element of the string. ☑︎
+
+s.at(i) -> access the ith index of the string.
+s.front() -> access the first element of the string.
+
+** Modifiers **
+* s+= -> append another string. ☑︎
+* s.pop_back() -> remove the last character of the string. ☑︎
+* s= -> assign string. ☑︎
+
+* s.erase() -> erase characters from the string. ☑︎ - 
+if we give 1 parameter, then it will delete the entire string from that index, if we give
+2 parameter then it will delete from index to number of parameter.
+
+* s.replace() -> replace a portion of the string. ☑︎
+* s.insert() -> insert a portion to a specific position. ☑︎
+
+s.push_back() -> add character to the last of the string.
+s.append() -> append another string.
+s.assign() -> assign string.
+
+Iterators
+s.begin() -> pointer to the first element.
+s.end() -> pointer to the next element after the last element of the string.
+
+** take input with spaces
+
+* cin.getline() - for taking array of character , it occupy static memeory, but we need dynamic memory.
+
+* getline(cin, str_name) - it takes string intput with out new line
+* cin.ignore() - use, if we need first integer input then string input with space.
+
+** stoi() -  convert string to number
+** str.find("HELLO") - find a character or a portion of a string and return the index of first found.if I give two parameter then, it will find after  the second parameter index.
+** isAlpha() - chech is it a alphabet or not
+** str.substr(0, 3) - give a portion of a string. first parameter start index and second parameter  how many index has to be given.
+

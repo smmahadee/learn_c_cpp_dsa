@@ -1,0 +1,27 @@
+** typeof string constructor function call **
+
+1. string s = "hello world" - initialize string.
+2. string s("hello world") - initialize string.
+3. string s("hello world", 7) - given string from zero index to parameter index.
+4. string a = "hello world"; string s (a, 4) - given string from parameter index to rest index;
+5. string s(25, 'a') - given string as 25 'a'.
+
+** sort string **
+
+string s = "hello world";
+sort(s.begin(), s.end());
+
+** ranged based for loop **
+
+* it doesn't work on normal string in c, it works on some built in class object. ex:  string object.
+
+* example :
+
+string s = "hello";
+for(char ch : s) {
+    cout<<ch<<endl;
+}
+
+** namespace **
+
+it is a big group like class , but here we can also keep classes.

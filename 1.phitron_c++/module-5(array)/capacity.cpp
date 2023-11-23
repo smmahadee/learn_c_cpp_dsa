@@ -13,9 +13,9 @@ int main() {
     // else
     //     cout << "Not Empty" << endl;
 
-    // str.resize(5);
+    str.resize(5);
 
-    // cout << str << endl;
+    cout << str << endl;
     // cout << str.size() << endl;
 
     return 0;

@@ -1,0 +1,44 @@
+** Time Complexity **
+
+* time Complexity measure by big O notation. ex: O(steps)
+* steps will be count by two things.
+1. grammer 
+    a. always calculate for worst case
+    b. ignore the constants
+2. input value
+
+* O(n+m) - means, the max value between these two will be the time Complexity.
+
+* specially time Complexity comes from for loop
+
+** online judge second calculation
+10^7  - 1s
+10^7 * 2 - 2s
+10^7 * 3 - 3s
+
+10^8 - 10s
+10^9 - 100s
+
+* basically a program should be run in 1 second means, we can run 10^7 steps into this.
+
+* types of big O
+2. O(logN) - limit greater than 10^18
+4. O(sqrt(N)) - limit 10^14
+1. O(N) - limit 10^7
+5. O(NlogN) - 10^5 for 1s - 10^6 for 2s
+3. O(N*N) / O(N*M) - limit 10^3 
+
+** space Complexity **
+
+1. input spaces
+2. axilary space
+
+so, the space Complexity will the maximum value of input spaces and axilary space.
+ex : space Complexity - max(input space, axilary space);
+
+** space Complexity limit for 1 second program is -  10^6
+2. O(logN) - limit greater than 10^18
+4. O(sqrt(N)) - limit 10^12
+1. O(N) - limit 10^6
+5. O(NlogN) - 10^5 for 1s - 10^6 for 2s
+3. O(N*N) / O(N*M) - limit 10^3 

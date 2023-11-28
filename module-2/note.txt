@@ -1,0 +1,10 @@
+* STL - standard template library *
+
+* capacity() - it will increase by 2 times from the initial value. 
+ex: 1, 2, 4 , 8, 16, 32 
+
+* clear() - it only decrease the size of the vector and set it to zero. doesn't clear the memory
+
+* resize() - 
+    a. when we need to decrease the size then send one parameter. ex: resize(2);
+    b. when we need to increase the size then if we send 1 parameter then the rest of the value will be zero. and if we  send two parameter then the second parameter will be the rest value. ex: resize(6, 100)

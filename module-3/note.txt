@@ -1,0 +1,1 @@
+* Bruteforce - when i am not thinking about time complexity and space complexity, only try to solve the problem.

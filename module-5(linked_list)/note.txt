@@ -1,0 +1,9 @@
+* data structure means - put data in a structured way. like we put money in moneybag.
+
+** problem with array , why we use linked list **
+
+1. Array is a sequential memory, so when we need big memory, we didn't get sequential memory.
+2. We cann't increase or decrease size of an array, but we can in linked list.
+
+** why we use dynamic Node class object , for linked list
+1. because next time we need to create linked list in function, so when we return the function, that createed object also going to vanish, if we not create dynamic object.

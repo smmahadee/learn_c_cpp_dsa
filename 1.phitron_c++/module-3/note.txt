@@ -3,5 +3,5 @@
 * cin.getline() funtion take space and enter button as input.
 * getChar() funtion takes a input but dont use that.
 
-* "this" keyword is a pointer. it refer the object in which it stays.
+* "this" keyword is a pointer. it refer the object in where it stays.
 * if we want to read a field of an object by "this". then, first we have dereference the value then read that field. ex: (*this).roll = 23; / this-> roll = 23;

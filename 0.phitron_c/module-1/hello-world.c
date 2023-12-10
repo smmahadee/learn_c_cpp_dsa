@@ -1,11 +1,16 @@
 #include <stdio.h>
 
+
+int vr = 10;
+
 int main()
 {
-    int number;
-    printf("Type your input - ");
-    scanf("%d", &number);
-    printf("your input value is %d\n", number);
+    // int number;
+    // printf("Type your input - ");
+    // scanf("%d", &number);
+    // printf("your input value is %d\n", number);
+    char a[10][5] = {"hi", "c", "developer"};
+    printf("%s", a[2]);
     return 0;
 }
 

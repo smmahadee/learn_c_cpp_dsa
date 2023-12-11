@@ -94,26 +94,26 @@ void delete_node_by_position(Node* head, int pos) {
     delete deletedNode;
 }
 
-void delete_tail(Node*& head, Node*& tail) {
+void delete_tail(Node*& tail) {
     Node* deletedNode = tail;
     tail = tail->prev;
-    delete deletedNode;
-    if (tail == NULL) {
-        head = NULL;
-        return;
-    }
     tail->next = NULL;
+    delete deletedNode;
 }
 
-void delete_head(Node*& head, Node*& tail) {
+void delete_head(Node*& head) {
     Node* deletedNode = head;
     head = head->next;
-    delete deletedNode;
-    if (head == NULL) {
-        tail = NULL;
-        return;
-    }
     head->prev = NULL;
+    delete deletedNode;
+}
+
+void reverse_doubly_list(Node* head, Node* tail) {
+    while (head != tail && head->next != tail) {
+        swap(head->val, tail->val);
+        head = head->next;
+        tail = tail->prev;
+    }
 }
 
 int main() {
@@ -166,10 +166,12 @@ int main() {
         cout << "invalid position";
     } */
 
+    // REVERSE LIST REALLY BY TWO POINTER TECHNIQUE
+    reverse_doubly_list(head, tail);
     cout << endl;
     print_list(head);
-    cout << endl;
-    print_list_reverse(tail);
+    // cout << endl;
+    // print_list_reverse(tail);
 
     return 0;
 }

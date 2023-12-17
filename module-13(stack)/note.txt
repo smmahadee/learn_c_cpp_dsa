@@ -1,0 +1,7 @@
+** stack **
+it is a data structure that maintain LIFO (last if first out) system. means, we have to bring out that laster entered element.
+
+* is is a higher level data structure or ADT (abstract data structure). 
+* array and linked lists are lower level data structure.
+
+* when we want to delete or get a value from stack, at first we have to chech that the stack is empty or not.

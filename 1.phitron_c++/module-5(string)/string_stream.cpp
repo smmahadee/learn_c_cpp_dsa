@@ -15,6 +15,8 @@ int main() {
 
     while(ss>>word) {
         cout<< word<<endl;
+
+        
     }
 
     return 0;

@@ -12,6 +12,7 @@ int main() {
     // cout<<s.top();
     // cout<<s.size();
     // cout<<s.empty();
+    
     int n;
     cin >> n;
     for (int i = 0; i < n; i++) {

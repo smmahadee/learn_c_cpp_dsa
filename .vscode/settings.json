@@ -55,6 +55,8 @@
     "variant": "cpp",
     "vector": "cpp",
     "algorithm": "cpp",
-    "list": "cpp"
+    "list": "cpp",
+    "queue": "cpp",
+    "stack": "cpp"
   }
 }

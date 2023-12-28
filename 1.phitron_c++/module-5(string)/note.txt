@@ -48,3 +48,4 @@ s.end() -> pointer to the next element after the last element of the string.
 ** isAlpha() - chech is it a alphabet or not
 ** str.substr(0, 3) - give a portion of a string. first parameter start index and second parameter  how many index has to be given.
 
+** compare string by "==" symbol : ex: s == s2 

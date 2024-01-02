@@ -66,7 +66,7 @@ class QueueDoublyLinkedList {
         size--;
         Node* deletedNode = head;
         head = head->next;
-        
+
         if (head == NULL) {
             tail = NULL;
             delete deletedNode;

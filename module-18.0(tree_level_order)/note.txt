@@ -1,0 +1,21 @@
+** tree - a non lenear data structure, it follows hirarchy data structure.
+
+** main three parts of a tree.
+1. root
+2. parent node
+3. leaf
+
+* binary tree - maximum children will be 2.
+
+* there are two types of order for traversing in binary tree.
+1. depth order 
+    a. pre order - means,  root , left , right.
+    b. post order - means,  left , right , root.
+    c. in order - means,  left , root , right
+
+2. level order (floor)
+
+* how to print banary tree by level order ?
+0. keep all node from one floor to a queue.
+1. print first node or do whatever you want.
+2. print it and keep all of its child node to previous queue.

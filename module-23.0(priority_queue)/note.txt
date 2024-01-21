@@ -1,0 +1,4 @@
+** set (bst)
+1. duplicate remove
+2. sort
+3 searching

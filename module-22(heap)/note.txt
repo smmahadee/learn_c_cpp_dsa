@@ -1,0 +1,3 @@
+** complete binary tree :
+    1. all child will be complete before last level
+    2. in last level from left side will be complete

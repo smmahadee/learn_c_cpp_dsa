@@ -1,0 +1,3 @@
+** BST conditions **
+1. left subtree of a node have to be smaller than that node. ( left < node)
+2. right subtree of that node have to be greater than that node. (right > node)

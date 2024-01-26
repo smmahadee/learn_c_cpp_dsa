@@ -1,0 +1,16 @@
+** Tree vs Graph
+
+In Graph can be - 
+1. multiple edge/line from one children to another
+2. multiple way to traverse from parent to children
+3. cycling possible between children.
+4. edge direction can be both side ( top to botton and bottom to top)
+
+** Types of Graphs
+1. Undirected graph - it has no direction means it can go both side (top to bottom and bottom to top)
+2. directed graph - at least one node has given direction (can be given one direction or both way direction).
+3. weighted graph - its all node has a weight.
+4. unweighted graph - its all node has same weight or undefined weight
+5. cycle -  
+    a. Undirected - it has at least 3 children and can be traverse from one node to everynode
+    b. directed - their have to be a cycle to traverse in nodes direction

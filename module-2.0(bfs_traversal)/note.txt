@@ -1,0 +1,4 @@
+* time complexity of BFS = O(v + e);
+* space complexity of BFS = O(v)
+
+** BFS unweighted graph e shortest path ber korte pare.

@@ -1,0 +1,2 @@
+* we cant use DSU(disjoint union) in directed graph
+* mst - minimum spanning tree

@@ -1,0 +1,11 @@
+** how to get a shortest path from a single source to specific node in graph ?(single source shortest path)
+
+1. undirected/directed without weight -> BFS 
+2. undirected/directed with weight -> Dijkstra
+3. undirected/directed with negetive weight -> bellman ford -> O(v*e)
+
+** how to get a shortest path from all sources to all nodes in graph ? (all pair shortes path)
+1. floyd warshal - best O(v^3)
+1. undirected/directed without weight -> BFS -> O(v^3)
+2. undirected/directed with weight -> Dijkstra -> O(v^3logV)
+3. undirected/directed with negetive weight -> bellman ford -> O(v^4)

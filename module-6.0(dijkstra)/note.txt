@@ -1,0 +1,6 @@
+** why we need dijkstra algorithm , why not bfs ?
+* bfs not work on weighted graph for getting shortest path 
+* thats why we use dijkstra algorithm on weighted graph. 
+
+* time compelxity of dijkstra - naive = O(v*e)
+* time compelxity of dijkstra - naive = O(v*e) * logV

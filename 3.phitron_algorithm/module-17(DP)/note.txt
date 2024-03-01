@@ -1,0 +1,7 @@
+* DP - recursive + optimization / memoization
+
+* two approach of DP 
+1. top - down (recusion)
+2. bottom - up (loop)
+
+* without optimization fibonacci series time compelxity = 2^N
